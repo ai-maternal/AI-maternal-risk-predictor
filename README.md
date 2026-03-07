@@ -89,8 +89,6 @@ AI-maternal-risk-predictor
 ├── pages/                 # Dashboard pages
 ├── data/                  # Dataset
 ├── README.md              # Project documentation
-```
-
 
 # Future Improvements
 
@@ -99,7 +97,6 @@ AI-maternal-risk-predictor
 • Mobile health application
 • Deployment on cloud healthcare platforms
 
----
 
 # Impact
 

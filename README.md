@@ -1,43 +1,109 @@
- # AI Maternal Risk Predictor
 
-An AI-powered healthcare web application that predicts maternal pregnancy risk using machine learning and explainable AI.
+# AI Maternal Risk Predictor 🤰
 
-## Features
-• Maternal mortality risk prediction  
-• Explainable AI using SHAP  
-• Model confidence visualization  
-• Auto-generated patient ID  
-• Patient history tracking  
-• Admin dashboard analytics  
-• Risk trend monitoring for patients  
-• PDF report generation  
+An **AI-powered healthcare web application** that predicts the **risk level of maternal mortality during pregnancy** using machine learning and explainable AI. The system helps healthcare professionals identify high-risk pregnancies early and take preventive medical action.
 
-## Tech Stack
-Python  
-Streamlit  
-Scikit-learn  
-SHAP  
-Plotly  
-SQLite  
+# Project Overview
 
-## How to Run
+Maternal mortality is a major global health issue. Early detection of high-risk pregnancies can significantly reduce complications and improve maternal care.
 
-1. Install dependencies
+This project uses **machine learning and clinical parameters** to predict the **risk level of pregnancy** and provide **explainable insights** to support medical decision-making.
 
-pip install -r requirements.txt
+# Key Features
 
-2. Run the application
+• AI-based maternal risk prediction
+• Explainable AI using **SHAP (Shapley values)**
+• **Model confidence visualization** using gauge charts
+• **Auto-generated patient ID system**
+• **Returning patient tracking**
+• **Patient history management**
+• **Admin dashboard with analytics**
+• **Patient search by Patient ID**
+• **Risk trend analysis for each patient**
+• **PDF medical report generation**
 
-streamlit run app.py
+# Technology Stack
 
-## Project Structure
+**Frontend / Web App**
 
-app.py – main application  
-maternal_risk_model.pkl – trained ML model  
-assets/ – UI images  
-pages/ – dashboard pages  
-train.ipynb – model training notebook
+* Streamlit
 
-## Use Case
+**Machine Learning**
 
-The system helps healthcare professionals identify high-risk pregnancies early, enabling timely medical intervention and reducing maternal mortality.
+* Scikit-learn
+* SHAP (Explainable AI)
+
+**Data Processing**
+
+* Pandas
+* NumPy
+
+**Visualization**
+
+* Plotly
+* Matplotlib
+
+**Database**
+
+* SQLite
+
+**Reporting**
+
+* ReportLab (PDF generation)
+
+# How the System Works
+
+1. User enters patient clinical parameters:
+
+   * Age
+   * Blood Pressure
+   * Blood Sugar
+   * Body Temperature
+   * Heart Rate
+
+2. The trained machine learning model predicts the **maternal risk level**.
+
+3. The system displays:
+
+   * Risk Score
+   * Risk Category (Low / Moderate / High)
+   * Model Confidence
+   * Explainable AI insights (SHAP)
+
+4. The prediction is stored in the database with a **unique patient ID**.
+
+5. Doctors or admins can:
+
+   * Search patients
+   * View patient history
+   * Monitor risk trends
+
+# Project Structure
+
+AI-maternal-risk-predictor
+│
+├── app.py                 # Main Streamlit application
+├── maternal_risk_model.pkl # Trained ML model
+├── train.ipynb            # Model training notebook
+├── assets/                # Images and UI assets
+├── pages/                 # Dashboard pages
+├── data/                  # Dataset
+├── README.md              # Project documentation
+```
+
+
+# Future Improvements
+
+• Integration with hospital electronic health records
+• Real-time monitoring with IoT health devices
+• Mobile health application
+• Deployment on cloud healthcare platforms
+
+---
+
+# Impact
+
+This system demonstrates how **AI and data-driven healthcare tools** can assist medical professionals in identifying high-risk pregnancies early and improving maternal healthcare outcomes.
+
+ 
+

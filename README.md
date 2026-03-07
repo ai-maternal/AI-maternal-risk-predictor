@@ -81,14 +81,13 @@ This project uses **machine learning and clinical parameters** to predict the **
 # Project Structure
 
 AI-maternal-risk-predictor
-│
-├── app.py                 # Main Streamlit application
-├── maternal_risk_model.pkl # Trained ML model
-├── train.ipynb            # Model training notebook
-├── assets/                # Images and UI assets
-├── pages/                 # Dashboard pages
-├── data/                  # Dataset
-├── README.md              # Project documentation
+  app.py                 # Main Streamlit application
+  maternal_risk_model.pkl # Trained ML model
+  train.ipynb            # Model training notebook
+  assets/                # Images and UI assets
+  pages/                 # Dashboard pages
+  data/                  # Dataset
+  README.md              # Project documentation
 
 # Future Improvements
 
